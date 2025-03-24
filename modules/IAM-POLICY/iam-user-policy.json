@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iam:CreateUser",
+                "iam:AttachUserPolicy",
+                "iam:PutUserPolicy",
+                "iam:ListUserPolicies",
+                "iam:ListAttachedUserPolicies",
+                "iam:AddUserToGroup",
+                "iam:TagUser"
+            ],
+            "Resource": "arn:aws:iam::*:user/*"
+        }
+    ]
+}
